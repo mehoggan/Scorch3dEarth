@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{599A8F5A-8B83-4B07-97A5-E136637F8FDD}</ProjectGuid>
+    <RootNamespace>ScorchedEarth</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChaseCam.cpp" />
+    <ClCompile Include="ControlItem.cpp" />
+    <ClCompile Include="ControlItemButton.cpp" />
+    <ClCompile Include="ControlItemCheckBox.cpp" />
+    <ClCompile Include="ControlItemGrid.cpp" />
+    <ClCompile Include="ControlItemSelectionBox.cpp" />
+    <ClCompile Include="ControlItemSliderbar.cpp" />
+    <ClCompile Include="ControlItemTextField.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GlobalSettings.cpp" />
+    <ClCompile Include="ImageObject.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemAntiAcid.cpp" />
+    <ClCompile Include="ItemBigRepair.cpp" />
+    <ClCompile Include="ItemCloak.cpp" />
+    <ClCompile Include="ItemDoubleAction.cpp" />
+    <ClCompile Include="ItemExtraBattery.cpp" />
+    <ClCompile Include="ItemFloat.cpp" />
+    <ClCompile Include="ItemShield.cpp" />
+    <ClCompile Include="ItemSmallRepair.cpp" />
+    <ClCompile Include="ItemTest.cpp" />
+    <ClCompile Include="LoadingScreen.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MainMenuButton.cpp" />
+    <ClCompile Include="Normal.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleAcid.cpp" />
+    <ClCompile Include="ParticleFloat.cpp" />
+    <ClCompile Include="ParticleGenerator.cpp" />
+    <ClCompile Include="ParticleSmoke.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerCPU.cpp" />
+    <ClCompile Include="PlayerFactory.cpp" />
+    <ClCompile Include="PlayerHuman.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ReadyMenu.cpp" />
+    <ClCompile Include="Scorch3dEarth.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShopMenu.cpp" />
+    <ClCompile Include="SkyboxFactory.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="SpecialEffect.cpp" />
+    <ClCompile Include="SubMenu.cpp" />
+    <ClCompile Include="SubMenuEconomics.cpp" />
+    <ClCompile Include="SubMenuHardware.cpp" />
+    <ClCompile Include="SubMenuLandscape.cpp" />
+    <ClCompile Include="SubMenuPhysics.cpp" />
+    <ClCompile Include="SubMenuPlayOptions.cpp" />
+    <ClCompile Include="SubMenuSelectTanks.cpp" />
+    <ClCompile Include="SubMenuSound.cpp" />
+    <ClCompile Include="SubMenuTest.cpp" />
+    <ClCompile Include="SubMenuWeapons.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankA.cpp" />
+    <ClCompile Include="TankB.cpp" />
+    <ClCompile Include="TankC.cpp" />
+    <ClCompile Include="TankD.cpp" />
+    <ClCompile Include="TankE.cpp" />
+    <ClCompile Include="TankF.cpp" />
+    <ClCompile Include="TankG.cpp" />
+    <ClCompile Include="TankH.cpp" />
+    <ClCompile Include="TerrainMaker.cpp" />
+    <ClCompile Include="TexCoord.cpp" />
+    <ClCompile Include="TextObject.cpp" />
+    <ClCompile Include="VBOQualifer.cpp" />
+    <ClCompile Include="VBOShaderLibrary.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponAcid.cpp" />
+    <ClCompile Include="WeaponAtom.cpp" />
+    <ClCompile Include="WeaponBFB.cpp" />
+    <ClCompile Include="WeaponDefault.cpp" />
+    <ClCompile Include="WeaponEMP.cpp" />
+    <ClCompile Include="WeaponMFB.cpp" />
+    <ClCompile Include="WeaponNuke.cpp" />
+    <ClCompile Include="WeaponPadlock.cpp" />
+    <ClCompile Include="WeaponRevive.cpp" />
+    <ClCompile Include="WeaponTeleport.cpp" />
+    <ClCompile Include="WeaponTest.cpp" />
+    <ClCompile Include="WeaponThor.cpp" />
+    <ClCompile Include="WorldCam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChaseCam.h" />
+    <ClInclude Include="ControlItem.h" />
+    <ClInclude Include="ControlItemButton.h" />
+    <ClInclude Include="ControlItemCheckBox.h" />
+    <ClInclude Include="ControlItemGrid.h" />
+    <ClInclude Include="ControlItemSelectionBox.h" />
+    <ClInclude Include="ControlItemSliderbar.h" />
+    <ClInclude Include="ControlItemTextField.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GlobalSettings.h" />
+    <ClInclude Include="ImageObject.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemAntiAcid.h" />
+    <ClInclude Include="ItemBigRepair.h" />
+    <ClInclude Include="ItemCloak.h" />
+    <ClInclude Include="ItemDoubleAction.h" />
+    <ClInclude Include="ItemExtraBattery.h" />
+    <ClInclude Include="ItemFloat.h" />
+    <ClInclude Include="ItemShield.h" />
+    <ClInclude Include="ItemSmallRepair.h" />
+    <ClInclude Include="ItemTest.h" />
+    <ClInclude Include="LoadingScreen.h" />
+    <ClInclude Include="macro_crtdbg.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MainMenuButton.h" />
+    <ClInclude Include="Normal.h" />
+    <ClInclude Include="OpenGLColors.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleAcid.h" />
+    <ClInclude Include="ParticleFloat.h" />
+    <ClInclude Include="ParticleGenerator.h" />
+    <ClInclude Include="ParticleSmoke.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerCPU.h" />
+    <ClInclude Include="PlayerFactory.h" />
+    <ClInclude Include="PlayerHuman.h" />
+    <ClInclude Include="possibleGameStates.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ReadyMenu.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShopMenu.h" />
+    <ClInclude Include="SkyboxFactory.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="SpecialEffect.h" />
+    <ClInclude Include="SubMenu.h" />
+    <ClInclude Include="SubMenuEconomics.h" />
+    <ClInclude Include="SubMenuHardware.h" />
+    <ClInclude Include="SubMenuLandscape.h" />
+    <ClInclude Include="SubMenuPhysics.h" />
+    <ClInclude Include="SubMenuPlayOptions.h" />
+    <ClInclude Include="SubMenuSelectTanks.h" />
+    <ClInclude Include="SubMenuSound.h" />
+    <ClInclude Include="SubMenuTest.h" />
+    <ClInclude Include="SubMenuWeapons.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankA.h" />
+    <ClInclude Include="TankB.h" />
+    <ClInclude Include="TankC.h" />
+    <ClInclude Include="TankD.h" />
+    <ClInclude Include="TankE.h" />
+    <ClInclude Include="TankF.h" />
+    <ClInclude Include="TankG.h" />
+    <ClInclude Include="TankH.h" />
+    <ClInclude Include="TerrainMaker.h" />
+    <ClInclude Include="TexCoord.h" />
+    <ClInclude Include="TextObject.h" />
+    <ClInclude Include="VBOQualifer.h" />
+    <ClInclude Include="VBOShaderLibrary.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponAcid.h" />
+    <ClInclude Include="WeaponAtom.h" />
+    <ClInclude Include="WeaponBFB.h" />
+    <ClInclude Include="WeaponDefault.h" />
+    <ClInclude Include="WeaponEMP.h" />
+    <ClInclude Include="WeaponMFB.h" />
+    <ClInclude Include="WeaponNuke.h" />
+    <ClInclude Include="WeaponPadlock.h" />
+    <ClInclude Include="WeaponRevive.h" />
+    <ClInclude Include="WeaponTeleport.h" />
+    <ClInclude Include="WeaponTest.h" />
+    <ClInclude Include="WeaponThor.h" />
+    <ClInclude Include="WorldCam.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

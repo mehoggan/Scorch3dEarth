@@ -1,0 +1,156 @@
+﻿Build started 4/22/2013 1:16:00 AM.
+     1>Project "C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\ScorchedEarth\ScorchedEarth.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\ScorchedEarth.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\Release\ScorchedEarth.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ScorchedEarth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\Release\ScorchedEarth.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\Release\ScorchedEarth.lib" /MACHINE:X86 Release\ChaseCam.obj
+         Release\ControlItem.obj
+         Release\ControlItemButton.obj
+         Release\ControlItemCheckBox.obj
+         Release\ControlItemGrid.obj
+         Release\ControlItemSelectionBox.obj
+         Release\ControlItemSliderbar.obj
+         Release\ControlItemTextField.obj
+         Release\Explosion.obj
+         Release\GameState.obj
+         Release\GlobalSettings.obj
+         Release\ImageObject.obj
+         Release\Inventory.obj
+         Release\Item.obj
+         Release\ItemAntiAcid.obj
+         Release\ItemBigRepair.obj
+         Release\ItemCloak.obj
+         Release\ItemDoubleAction.obj
+         Release\ItemExtraBattery.obj
+         Release\ItemFloat.obj
+         Release\ItemShield.obj
+         Release\ItemSmallRepair.obj
+         Release\ItemTest.obj
+         Release\LoadingScreen.obj
+         Release\MainMenu.obj
+         Release\MainMenuButton.obj
+         Release\Normal.obj
+         Release\Particle.obj
+         Release\ParticleAcid.obj
+         Release\ParticleFloat.obj
+         Release\ParticleGenerator.obj
+         Release\ParticleSmoke.obj
+         Release\Player.obj
+         Release\PlayerCPU.obj
+         Release\PlayerFactory.obj
+         Release\PlayerHuman.obj
+         Release\Projectile.obj
+         Release\ReadyMenu.obj
+         Release\Scorch3dEarth.obj
+         Release\Shader.obj
+         Release\ShopMenu.obj
+         Release\SkyboxFactory.obj
+         Release\sound.obj
+         Release\SpecialEffect.obj
+         Release\SubMenu.obj
+         Release\SubMenuEconomics.obj
+         Release\SubMenuHardware.obj
+         Release\SubMenuLandscape.obj
+         Release\SubMenuPhysics.obj
+         Release\SubMenuPlayOptions.obj
+         Release\SubMenuSelectTanks.obj
+         Release\SubMenuSound.obj
+         Release\SubMenuTest.obj
+         Release\SubMenuWeapons.obj
+         Release\Tank.obj
+         Release\TankA.obj
+         Release\TankB.obj
+         Release\TankC.obj
+         Release\TankD.obj
+         Release\TankE.obj
+         Release\TankF.obj
+         Release\TankG.obj
+         Release\TankH.obj
+         Release\TerrainMaker.obj
+         Release\TexCoord.obj
+         Release\TextObject.obj
+         Release\VBOQualifer.obj
+         Release\VBOShaderLibrary.obj
+         Release\Vector.obj
+         Release\Vertex.obj
+         Release\Water.obj
+         Release\Weapon.obj
+         Release\WeaponAcid.obj
+         Release\WeaponAtom.obj
+         Release\WeaponBFB.obj
+         Release\WeaponDefault.obj
+         Release\WeaponEMP.obj
+         Release\WeaponMFB.obj
+         Release\WeaponNuke.obj
+         Release\WeaponPadlock.obj
+         Release\WeaponRevive.obj
+         Release\WeaponTeleport.obj
+         Release\WeaponTest.obj
+         Release\WeaponThor.obj
+         Release\WorldCam.obj
+     1>ChaseCam.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+     1>ControlItem.obj : error LNK2001: unresolved external symbol __purecall
+     1>ControlItem.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>ControlItem.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>ControlItemButton.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>msvcprt.lib(newaop_s.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+     1>ControlItemGrid.obj : error LNK2001: unresolved external symbol __imp__printf
+     1>ControlItemGrid.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fputc
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__sprintf
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___itoa
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::bad_cast::~bad_cast(void)" (__imp_??1bad_cast@std@@UAE@XZ)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@std@@QAE@PBD@Z)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (__imp_??0bad_cast@std@@QAE@ABV01@@Z)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual char const * __thiscall std::exception::what(void)const " (__imp_?what@exception@std@@UBEPBDXZ)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+     1>GameState.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__memmove
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___unlock_file
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__ungetc
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fgetpos
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___fseeki64
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fflush
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__atoi
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___errno
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fgetc
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fsetpos
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__setvbuf
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___lock_file
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__rand
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__srand
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__memcpy_s
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fwrite
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__fclose
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp___time64
+     1>GameState.obj : error LNK2001: unresolved external symbol __imp__exit
+     1>ImageObject.obj : error LNK2001: unresolved external symbol __imp__free
+     1>ImageObject.obj : error LNK2001: unresolved external symbol __imp__malloc
+     1>ImageObject.obj : error LNK2001: unresolved external symbol __imp__fopen
+     1>ImageObject.obj : error LNK2001: unresolved external symbol __imp__fread
+     1>Shader.obj : error LNK2001: unresolved external symbol __imp__rewind
+     1>Shader.obj : error LNK2001: unresolved external symbol __imp__fopen_s
+     1>Shader.obj : error LNK2001: unresolved external symbol __imp__ftell
+     1>Shader.obj : error LNK2001: unresolved external symbol __imp__fseek
+     1>SubMenuLandscape.obj : error LNK2001: unresolved external symbol __imp__vsprintf_s
+     1>TerrainMaker.obj : error LNK2001: unresolved external symbol "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+     1>TerrainMaker.obj : error LNK2001: unresolved external symbol "void __stdcall `eh vector constructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIHP6EX0@Z1@Z)
+     1>VBOShaderLibrary.obj : error LNK2001: unresolved external symbol __imp____iob_func
+     1>VBOShaderLibrary.obj : error LNK2001: unresolved external symbol __imp__fprintf
+     1>LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol __EH_epilog3
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol __EH_prolog3
+     1>msvcprt.lib(locale0_implib.obj) : error LNK2001: unresolved external symbol _atexit
+     1>C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\Release\ScorchedEarth.exe : fatal error LNK1120: 54 unresolved externals
+     1>Done Building Project "C:\Users\mehoggan\Desktop\Scorch3dEarth\src\ScorchedEarth\ScorchedEarth\ScorchedEarth.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.57
