@@ -3,4 +3,4 @@ Scorch3dEarth
 
 Senior Project
 
-This source code is available to download for anyone who is intrested.
+This source code is available to download for anyone who is interested.
