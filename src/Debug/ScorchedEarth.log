@@ -1,0 +1,505 @@
+﻿Build started 1/17/2014 1:01:56 PM.
+     1>Project "C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\ScorchedEarth.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ScorchedEarth.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\include\GL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChaseCam.cpp ControlItem.cpp ControlItemButton.cpp ControlItemCheckBox.cpp ControlItemGrid.cpp ControlItemSelectionBox.cpp ControlItemSliderbar.cpp ControlItemTextField.cpp Explosion.cpp GameState.cpp GlobalSettings.cpp ImageObject.cpp Inventory.cpp Item.cpp ItemAntiAcid.cpp ItemBigRepair.cpp ItemCloak.cpp ItemDoubleAction.cpp ItemExtraBattery.cpp ItemFloat.cpp ItemShield.cpp ItemSmallRepair.cpp ItemTest.cpp LoadingScreen.cpp MainMenu.cpp MainMenuButton.cpp Normal.cpp Particle.cpp ParticleAcid.cpp ParticleFloat.cpp ParticleGenerator.cpp ParticleSmoke.cpp Player.cpp PlayerCPU.cpp PlayerFactory.cpp PlayerHuman.cpp Projectile.cpp ReadyMenu.cpp Scorch3dEarth.cpp Shader.cpp ShopMenu.cpp SkyboxFactory.cpp sound.cpp SpecialEffect.cpp SubMenu.cpp SubMenuEconomics.cpp SubMenuHardware.cpp SubMenuLandscape.cpp SubMenuPhysics.cpp SubMenuPlayOptions.cpp SubMenuSelectTanks.cpp SubMenuSound.cpp SubMenuTest.cpp SubMenuWeapons.cpp Tank.cpp TankA.cpp TankB.cpp TankC.cpp TankD.cpp TankE.cpp TankF.cpp TankG.cpp TankH.cpp TerrainMaker.cpp TexCoord.cpp TextObject.cpp VBOQualifer.cpp VBOShaderLibrary.cpp Vector.cpp Vertex.cpp Water.cpp Weapon.cpp WeaponAcid.cpp WeaponAtom.cpp WeaponBFB.cpp WeaponDefault.cpp WeaponEMP.cpp WeaponMFB.cpp WeaponNuke.cpp WeaponPadlock.cpp WeaponRevive.cpp WeaponTeleport.cpp WeaponTest.cpp WeaponThor.cpp WorldCam.cpp
+         WorldCam.cpp
+         WeaponThor.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\crtdbg.h(587): warning C4005: '_malloca' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\malloc.h(209) : see previous definition of '_malloca'
+         WeaponTest.cpp
+         WeaponTeleport.cpp
+         WeaponRevive.cpp
+         WeaponPadlock.cpp
+         WeaponNuke.cpp
+         WeaponMFB.cpp
+         WeaponEMP.cpp
+         WeaponDefault.cpp
+         WeaponBFB.cpp
+         WeaponAtom.cpp
+         WeaponAcid.cpp
+         Weapon.cpp
+         Water.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\water.cpp(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\water.cpp(90): warning C4101: 'data' : unreferenced local variable
+         Vertex.cpp
+         Vector.cpp
+         VBOShaderLibrary.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(239): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(321): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(236): warning C4101: 'c' : unreferenced local variable
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(440): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(473): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboshaderlibrary.cpp(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         VBOQualifer.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboqualifer.cpp(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\vboqualifer.cpp(117): warning C4101: 'out' : unreferenced local variable
+         TextObject.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\textobject.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+         Compiling...
+         TexCoord.cpp
+         TerrainMaker.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\terrainmaker.cpp(96): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\terrainmaker.cpp(737): warning C4101: 'yDis' : unreferenced local variable
+         TankH.cpp
+         TankG.cpp
+         TankF.cpp
+         TankE.cpp
+         TankD.cpp
+         TankC.cpp
+         TankB.cpp
+         TankA.cpp
+         Tank.cpp
+         SubMenuWeapons.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuweapons.cpp(142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuweapons.cpp(145): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuweapons.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         SubMenuTest.cpp
+         SubMenuSound.cpp
+         SubMenuSelectTanks.cpp
+         SubMenuPlayOptions.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuplayoptions.cpp(146): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuplayoptions.cpp(149): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuplayoptions.cpp(150): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         SubMenuPhysics.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuphysics.cpp(134): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuphysics.cpp(137): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuphysics.cpp(138): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         SubMenuLandscape.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenulandscape.cpp(232): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenulandscape.cpp(235): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenulandscape.cpp(236): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         SubMenuHardware.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuhardware.cpp(127): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuhardware.cpp(130): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenuhardware.cpp(131): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         SubMenuEconomics.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenueconomics.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenueconomics.cpp(147): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\submenueconomics.cpp(148): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         Generating Code...
+         Compiling...
+         SubMenu.cpp
+         SpecialEffect.cpp
+         sound.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\crtdbg.h(587): warning C4005: '_malloca' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\malloc.h(209) : see previous definition of '_malloca'
+         SkyboxFactory.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\skyboxfactory.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         ShopMenu.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(272): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(294): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(452): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(503): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(509): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\shopmenu.cpp(560): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Shader.cpp
+         Scorch3dEarth.cpp
+         ReadyMenu.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(123): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(280): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(294): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(327): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\readymenu.cpp(351): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Projectile.cpp
+         PlayerHuman.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(60): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(83): warning C4150: deletion of pointer to incomplete type 'Item'; no destructor called
+                 c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\player.h(19) : see declaration of 'Item'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(89): warning C4150: deletion of pointer to incomplete type 'Weapon'; no destructor called
+                 c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\player.h(20) : see declaration of 'Weapon'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(104): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(106): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerhuman.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         PlayerFactory.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playerfactory.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         PlayerCPU.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(84): warning C4150: deletion of pointer to incomplete type 'Item'; no destructor called
+                 c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\player.h(19) : see declaration of 'Item'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(86): warning C4150: deletion of pointer to incomplete type 'Weapon'; no destructor called
+                 c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\player.h(20) : see declaration of 'Weapon'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\playercpu.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Player.cpp
+         ParticleSmoke.cpp
+         ParticleGenerator.cpp
+         ParticleFloat.cpp
+         ParticleAcid.cpp
+         Particle.cpp
+         Normal.cpp
+         MainMenuButton.cpp
+         Generating Code...
+         Compiling...
+         MainMenu.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\mainmenu.cpp(388): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\mainmenu.cpp(395): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\mainmenu.cpp(397): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\mainmenu.cpp(398): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         LoadingScreen.cpp
+         ItemTest.cpp
+         ItemSmallRepair.cpp
+         ItemShield.cpp
+         ItemFloat.cpp
+         ItemExtraBattery.cpp
+         ItemDoubleAction.cpp
+         ItemCloak.cpp
+         ItemBigRepair.cpp
+         ItemAntiAcid.cpp
+         Item.cpp
+         Inventory.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\inventory.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\inventory.cpp(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         ImageObject.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\imageobject.cpp(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         GlobalSettings.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\globalsettings.cpp(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         GameState.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(498): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(508): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(521): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(528): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(536): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(543): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(1449): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\gamestate.cpp(1582): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Explosion.cpp
+         ControlItemTextField.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemtextfield.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemtextfield.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemtextfield.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+         ControlItemSliderbar.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemsliderbar.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemsliderbar.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemsliderbar.cpp(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemsliderbar.cpp(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         ControlItemSelectionBox.cpp
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemselectionbox.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemselectionbox.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemselectionbox.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\cygwin64\home\matthew.hoggan\devel\scorch3dearth\src\controlitemselectionbox.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+         Compiling...
+         ControlItemGrid.cpp
+         ControlItemCheckBox.cpp
+         ControlItemButton.cpp
+         ControlItem.cpp
+         ChaseCam.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ScorchedEarth.exe.embed.manifest.res" Debug\ScorchedEarth_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ScorchedEarth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.lib" /MACHINE:X86 Debug\ScorchedEarth.exe.embed.manifest.res
+         Debug\ChaseCam.obj
+         Debug\ControlItem.obj
+         Debug\ControlItemButton.obj
+         Debug\ControlItemCheckBox.obj
+         Debug\ControlItemGrid.obj
+         Debug\ControlItemSelectionBox.obj
+         Debug\ControlItemSliderbar.obj
+         Debug\ControlItemTextField.obj
+         Debug\Explosion.obj
+         Debug\GameState.obj
+         Debug\GlobalSettings.obj
+         Debug\ImageObject.obj
+         Debug\Inventory.obj
+         Debug\Item.obj
+         Debug\ItemAntiAcid.obj
+         Debug\ItemBigRepair.obj
+         Debug\ItemCloak.obj
+         Debug\ItemDoubleAction.obj
+         Debug\ItemExtraBattery.obj
+         Debug\ItemFloat.obj
+         Debug\ItemShield.obj
+         Debug\ItemSmallRepair.obj
+         Debug\ItemTest.obj
+         Debug\LoadingScreen.obj
+         Debug\MainMenu.obj
+         Debug\MainMenuButton.obj
+         Debug\Normal.obj
+         Debug\Particle.obj
+         Debug\ParticleAcid.obj
+         Debug\ParticleFloat.obj
+         Debug\ParticleGenerator.obj
+         Debug\ParticleSmoke.obj
+         Debug\Player.obj
+         Debug\PlayerCPU.obj
+         Debug\PlayerFactory.obj
+         Debug\PlayerHuman.obj
+         Debug\Projectile.obj
+         Debug\ReadyMenu.obj
+         Debug\Scorch3dEarth.obj
+         Debug\Shader.obj
+         Debug\ShopMenu.obj
+         Debug\SkyboxFactory.obj
+         Debug\sound.obj
+         Debug\SpecialEffect.obj
+         Debug\SubMenu.obj
+         Debug\SubMenuEconomics.obj
+         Debug\SubMenuHardware.obj
+         Debug\SubMenuLandscape.obj
+         Debug\SubMenuPhysics.obj
+         Debug\SubMenuPlayOptions.obj
+         Debug\SubMenuSelectTanks.obj
+         Debug\SubMenuSound.obj
+         Debug\SubMenuTest.obj
+         Debug\SubMenuWeapons.obj
+         Debug\Tank.obj
+         Debug\TankA.obj
+         Debug\TankB.obj
+         Debug\TankC.obj
+         Debug\TankD.obj
+         Debug\TankE.obj
+         Debug\TankF.obj
+         Debug\TankG.obj
+         Debug\TankH.obj
+         Debug\TerrainMaker.obj
+         Debug\TexCoord.obj
+         Debug\TextObject.obj
+         Debug\VBOQualifer.obj
+         Debug\VBOShaderLibrary.obj
+         Debug\Vector.obj
+         Debug\Vertex.obj
+         Debug\Water.obj
+         Debug\Weapon.obj
+         Debug\WeaponAcid.obj
+         Debug\WeaponAtom.obj
+         Debug\WeaponBFB.obj
+         Debug\WeaponDefault.obj
+         Debug\WeaponEMP.obj
+         Debug\WeaponMFB.obj
+         Debug\WeaponNuke.obj
+         Debug\WeaponPadlock.obj
+         Debug\WeaponRevive.obj
+         Debug\WeaponTeleport.obj
+         Debug\WeaponTest.obj
+         Debug\WeaponThor.obj
+         Debug\WorldCam.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ScorchedEarth.exe.embed.manifest" /manifest Debug\ScorchedEarth.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ScorchedEarth.exe.embed.manifest.res" Debug\ScorchedEarth_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ScorchedEarth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.lib" /MACHINE:X86 Debug\ScorchedEarth.exe.embed.manifest.res
+         Debug\ChaseCam.obj
+         Debug\ControlItem.obj
+         Debug\ControlItemButton.obj
+         Debug\ControlItemCheckBox.obj
+         Debug\ControlItemGrid.obj
+         Debug\ControlItemSelectionBox.obj
+         Debug\ControlItemSliderbar.obj
+         Debug\ControlItemTextField.obj
+         Debug\Explosion.obj
+         Debug\GameState.obj
+         Debug\GlobalSettings.obj
+         Debug\ImageObject.obj
+         Debug\Inventory.obj
+         Debug\Item.obj
+         Debug\ItemAntiAcid.obj
+         Debug\ItemBigRepair.obj
+         Debug\ItemCloak.obj
+         Debug\ItemDoubleAction.obj
+         Debug\ItemExtraBattery.obj
+         Debug\ItemFloat.obj
+         Debug\ItemShield.obj
+         Debug\ItemSmallRepair.obj
+         Debug\ItemTest.obj
+         Debug\LoadingScreen.obj
+         Debug\MainMenu.obj
+         Debug\MainMenuButton.obj
+         Debug\Normal.obj
+         Debug\Particle.obj
+         Debug\ParticleAcid.obj
+         Debug\ParticleFloat.obj
+         Debug\ParticleGenerator.obj
+         Debug\ParticleSmoke.obj
+         Debug\Player.obj
+         Debug\PlayerCPU.obj
+         Debug\PlayerFactory.obj
+         Debug\PlayerHuman.obj
+         Debug\Projectile.obj
+         Debug\ReadyMenu.obj
+         Debug\Scorch3dEarth.obj
+         Debug\Shader.obj
+         Debug\ShopMenu.obj
+         Debug\SkyboxFactory.obj
+         Debug\sound.obj
+         Debug\SpecialEffect.obj
+         Debug\SubMenu.obj
+         Debug\SubMenuEconomics.obj
+         Debug\SubMenuHardware.obj
+         Debug\SubMenuLandscape.obj
+         Debug\SubMenuPhysics.obj
+         Debug\SubMenuPlayOptions.obj
+         Debug\SubMenuSelectTanks.obj
+         Debug\SubMenuSound.obj
+         Debug\SubMenuTest.obj
+         Debug\SubMenuWeapons.obj
+         Debug\Tank.obj
+         Debug\TankA.obj
+         Debug\TankB.obj
+         Debug\TankC.obj
+         Debug\TankD.obj
+         Debug\TankE.obj
+         Debug\TankF.obj
+         Debug\TankG.obj
+         Debug\TankH.obj
+         Debug\TerrainMaker.obj
+         Debug\TexCoord.obj
+         Debug\TextObject.obj
+         Debug\VBOQualifer.obj
+         Debug\VBOShaderLibrary.obj
+         Debug\Vector.obj
+         Debug\Vertex.obj
+         Debug\Water.obj
+         Debug\Weapon.obj
+         Debug\WeaponAcid.obj
+         Debug\WeaponAtom.obj
+         Debug\WeaponBFB.obj
+         Debug\WeaponDefault.obj
+         Debug\WeaponEMP.obj
+         Debug\WeaponMFB.obj
+         Debug\WeaponNuke.obj
+         Debug\WeaponPadlock.obj
+         Debug\WeaponRevive.obj
+         Debug\WeaponTeleport.obj
+         Debug\WeaponTest.obj
+         Debug\WeaponThor.obj
+         Debug\WorldCam.obj
+         ScorchedEarth.vcxproj -> C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\Debug\ScorchedEarth.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ScorchedEarth.unsuccessfulbuild".
+         Touching "Debug\ScorchedEarth.lastbuildstate".
+     1>Done Building Project "C:\cygwin64\home\matthew.hoggan\devel\Scorch3dEarth\src\ScorchedEarth.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:44.51
